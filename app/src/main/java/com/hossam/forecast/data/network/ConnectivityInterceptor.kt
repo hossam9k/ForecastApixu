@@ -1,4 +1,5 @@
 package com.hossam.forecast.data.network
 
-interface ConnectivityInterceptor {
-}
+import okhttp3.Interceptor
+
+interface ConnectivityInterceptor : Interceptor
